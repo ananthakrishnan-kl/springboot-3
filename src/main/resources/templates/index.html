@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmnls:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form th:action="@{/signup}" th:object="${signupForm}" method="post">
+
+ <p>
+   EmployeeId : <input type="text" name="Id" />
+  </p>
+  <p>
+   ForeName : <input type="text" name="forename" />
+  </p>
+  <p>
+   SurName : <input type="text" name="surname" />
+  </p>
+  <p>
+   Company : <input type="text" name="company" />
+  </p>
+  <p>
+   Age : <input type="text" name="age" />
+  </p>
+  <p>
+   PostCode : <input type="text" name="postcode" />
+  </p>
+  <p>
+   <input type="submit" value="Sign Up" />
+ </form>
+</body>
+</html>
+
+</body>
+</html>
